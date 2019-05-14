@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+        {% block title %}
+            {{ title|default:"корзина"|title }}
+        {% endblock %}
+    </title>
+    {% block css %}
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="icon" href="{% static '/images/favicon.ico' %}">
+        <link rel="stylesheet" href="{% static '/style/basket.css' %}">
+    {% endblock %}
+    {% block js %}
+        <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'js/basket_scripts.js' %}"></script>
+        {% comment %} <link rel="stylesheet" href="{% static 'js/basket_scripts.js' %}"> {% endcomment %}
+    {% endblock %}
+</head>
+<body>
+	<div class="basket-container">
+        <div class="h2 text-center head">
+            Ваша корзина, {{ user.first_name|title|default:'Пользователь' }}
+        </div>
+        {% block container %}
+        {% endblock %}
+	</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+
+<ul>
+    <li><a href="{% url 'main:index' %}" class="btn btn-primary">
+        на сайт
+    </a>
+    </li>
+    <li>
+        <a href="{% url 'myadmin:index' %}"
+        class="btn btn-primary {% if request.resolver_match.url_name == 'index' %}active{% endif %}">
+            пользователи
+        </a>
+    </li>
+    <li>
+        <a href="{% url 'myadmin:categories' %}"
+        class="btn btn-primary {% if request.resolver_match.url_name == 'categories' or category.name %}active{% endif %}">
+            категории{% if category %}:<span>{{ category.name }}</span>{% endif %}
+        </a>
+    </li>
+
+</ul>

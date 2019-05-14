@@ -1,0 +1,45 @@
+{% extends 'adminapp/base.html' %}
+{% load static %}
+
+
+{% block container %}
+    <div class="container">
+        <a href="{% url 'myadmin:card_create' category.pk %}"
+            class="btn btn-primary col-2 mt-5 ml-5">
+                новый продукт
+        </a>
+        {% for object in object_list %}
+            <div class="row mt-5 h-10 {% if not object.is_active %}not_active{% endif %}">
+                <img class='col-3 ml-1 mr-1 ava_img' src="/media/{{ object.img|default:'products_images/default.jpg' }}"
+                    alt="{{ object.name }}">
+                <div class="col-2 ml-1 mr-1">
+                    {{ object.name|title }}
+                </div>
+                <div class="col-2 ml-1 mr-1">
+                    <a href="{% url 'myadmin:card_read' object.pk %}"
+                    class="btn btn-info btn-block">
+                        подробнее
+                    </a>
+                    <a href="{% url 'myadmin:card_update' object.pk %}"
+                    class="btn btn-success btn-block">
+                        редактировать
+                    </a>
+                    <a href="{% url 'myadmin:card_delete' object.pk %}"
+                    class="btn btn-danger btn-block">
+                        удалить
+                    </a>
+                </div>
+                <div class="col-2 ml-1 mr-1">
+                    <b>цена</b>
+                    <p>{{ object.price }} &euro; </p>
+                    <b>количество</b>
+                    <p>{{ object.quantity }}</p>
+                </div>
+                <div class="col-2 ml-1 mr-1">
+                    {{ object.title|title }} 
+                </div> 
+            </div>
+        {% endfor%}
+    </div>
+{% endblock %}
+

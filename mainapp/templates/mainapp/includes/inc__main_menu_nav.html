@@ -1,0 +1,78 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light d-md-none xsNavBar">
+    <a class="navbar-brand xsLogo" href="{% url 'main:index' %}">SURFHOUSE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbar1">
+        <ul class="nav navbar-nav mr-auto">
+            <li class="nav-item">
+                <a href="{% url 'main:index' %}" 
+                class="nav-link {% if request.resolver_match.url_name == 'index'%}active{% endif %}">
+                    Главная
+                </a>
+            </li>
+            <li class="nav-item">
+                {% comment %} <a href="{% url 'main:catalog' %}"  {% endcomment %}
+                class="nav-link {% if request.resolver_match.url_name == 'catalog'%}active{% endif %}">
+                    Каталог
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="{% url 'main:contacts' %}" 
+                class="nav-link {% if request.resolver_match.url_name == 'contacts'%}active{% endif %}">
+                    Контакты
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+{% comment %} <nav class="navbar navbar-expand-md navbar-light bg-light d-md-none xsNavBar">
+    
+    <a class="navbar-brand xsLogo" href="{% url 'main:index' %}">SURFHOUSE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="dropdown-menu navbar-collapse collapse" id="navbar1">
+        <div class="container-fluid mt-2 mt-lg-0">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                    <div id="jquery-accordion-menu" class="jquery-accordion-menu white">
+                        <div class="jquery-accordion-menu-header"></div>
+                        <ul id="list-menu">
+                            <li class="{% if request.resolver_match.url_name == 'index'%}active{% endif %}">
+                                <a href="{% url 'main:index' %}">
+                                <i class="fa fa-home"></i>Главная</a>
+                            </li>
+                            <li class="{% if request.resolver_match.url_name == 'catalog'%}active{% endif %}">
+                                <a href="{% url 'main:catalog' %}">
+                                <i class="fa fa-suitcase"></i>Каталог</a>
+                                <ul class="submenu">
+                                    <li>
+                                        <a href="#">Доски для серфинга</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Одежда для cерфинга</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-trash"></i>Корзина</a>
+                                <span class="jquery-accordion-menu-label">0</span>
+                            </li>
+                            <li class="{% if request.resolver_match.url_name == 'contacts'%}active{% endif %}">
+                                <a href="{% url 'main:contacts' %}">
+                                <i class="fa fa-envelope"></i>Контакты</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-user"></i>Вход</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>           
+            </div>        
+        </div>  
+    </div>
+</nav> {% endcomment %}

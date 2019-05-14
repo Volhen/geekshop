@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html lang="ru">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        Магазин / {{ page_title }} 
+    </title>
+    <!-- Bootstrap CSS -->
+    {% block CSS %}
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="http://bootstraptema.ru/snippets/menu/2017/vam.md.css" />
+        <link rel="icon" href="{% static '/images/favicon.ico' %}">
+        <link rel="stylesheet" href="{% static '/style/style.css' %}">
+    {% endblock %}
+    {% block JS %}
+        {% comment %} <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> {% endcomment %}
+        <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+        <script src="http://bootstraptema.ru/plugins/jquery/jquery-1.11.3.min.js"></script>
+        <script src="http://bootstraptema.ru/other/2017/comments/vamm.md.js"></script>     
+        <script src="{% static '/js/menu.js' %}"></script>
+
+    {% endblock %}
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            {% include 'mainapp/includes/inc__main_menu_nav.html' %}
+            <a href="{% url 'main:index' %}" class="logo d-none d-md-block d-xs-none"></a>
+            <div class="social_buttons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div class="funride">
+                <div class="funride_header">
+                    Новая колекция<br> 2019
+                </div>
+                <div class="funride_text">
+                    Супер легкие доски фрирайда<br> основанные на форме<br> езды X-Cite с дополнительным контролем и супер<br> легким jibing.
+                </div>
+                <button>Подробно</button>
+            </div>
+            <div class="welcome_to">
+                <div class="title_up">
+                    добро пожаловать
+                    <div class="surfhouse">
+                        serfshop
+                    </div>
+                </div>
+
+                <div class="title_down">
+                    Единственный интернет-магазин, <br> который вам когда-либо понадобится для<br> всех ваших занятий виндсерфингом и<br> кайтсерфингом
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-sm-4">
+                    {% include 'mainapp/includes/inc__main_menu.html' %}
+                    <div class="now_is_open">
+                        <div class="now_is_open_img">
+                            <div class="now_text">
+                                Now <br> is <br> open!<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-sm-8">
+                    {% block content %}
+                        
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footerCopyrights mt-3">
+            <div class="container copyrightsInside">
+                <div class="footerCopySign">
+                    &copy; 2019  SURFHOUSE. All rights reserved
+                </div>
+                <div class="footerSocials">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-google-plus"></i>
+                    <i class="fab fa-tumblr"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-feed"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

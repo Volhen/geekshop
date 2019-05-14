@@ -1,0 +1,21 @@
+{% extends "ordersapp/base.html" %}
+{% load static %}
+{% load img_tags %}
+
+{% block container %}
+     {% include 'ordersapp/includes/inc__order_summary.html' %}
+     {% for item in object.orderitems.select_related %}
+          <div class="order_record">
+          
+               <img src="{{ item.card.img|media_folder_cards }}"alt="{{ item.card.title }}">
+               <span class="category_name">{{ item.card.category.name }}</span>
+               <span class="card_name">{{ item.card.name }}</span>
+               <span class="card_price">{{ item.card.price }}&nbsp;&euro;</span>
+               <span class="card_cost">{{ item.get_Card_cost }}&nbsp;&euro;</span>
+               <span class="card_quantitiy"> x {{ item.quantity }} шт.</span>        
+               
+          </div>
+     {% endfor %}
+     {% include 'ordersapp/includes/inc__order_actions.html' %}
+{% endblock %}
+

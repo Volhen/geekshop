@@ -1,0 +1,59 @@
+{% extends 'mainapp/base.html' %}
+
+{% load static %}
+
+
+{% block JS %}
+    {{ block.super }}
+    <script src="{% static 'js/basket_add.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+    <div class='content2'> 
+        <div class="contentHeader newProductsHeader">
+            Категория: "{{ category.name|title }}" 
+        </div>
+        <div class="container">
+            <div class="d-flex flex-row">
+                <div class="col d-flex justify-content-center mb-3 paginator">
+                    {% if cards.has_previous %}
+                        <a href="{% url 'main:category' category.pk cards.previous_page_number %}">
+                            <<&nbsp;
+                        </a>
+                    {% endif %}
+                    <span class="current">
+                        <strong>страница {{ cards.number }} из {{ cards.paginator.num_pages }}</strong>
+                    </span>
+                    {% if cards.has_next %}
+                        <a href="{% url 'main:category' category.pk cards.next_page_number %}">
+                            &nbsp;>>
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+            <div id="product" class="row justify-content-center">
+                {% if cards %}
+                    {% for  object in cards %}
+                        <div class="card col-lg-3 col-md-5 col-sm-9 col-12 mr-3 mt-3" style="width:270px">
+                            <img class="card-img-top" src="/media/{{object.img}}" alt="Card image">                        
+                            <div class="card-body">
+                                <h4 class="card-title">{{object.name }}</h4>
+                                <p class="card-text">{{object.title}}</p>
+                                <p>Цена: &euro;&nbsp;{{object.price}}</p>
+                                <a href="{% url 'main:card' object.pk %}" class="btn btn-info">инфо</a>
+                                {% if user.is_authenticated %}
+                                    <a href="{#% url 'basket:add' object.pk %#}" class="btn btn-primary" name="{{ object.pk }}">купить</a>
+                                {% else %}
+                                    <a href="{% url 'auth:login' %}" class="btn btn-primary">купить</a>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                {% else %}
+                    <h3>Данные отсутствуют !!!</h3>
+                {% endif %}
+            </div>    
+        </div>
+    </div>
+{% endblock %}
+

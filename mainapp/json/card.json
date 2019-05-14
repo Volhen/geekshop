@@ -1,0 +1,50 @@
+[
+    {
+        "category": "доски",
+        "img": "cards_images/surf1.jpg",
+        "name": "Surf long",
+        "title": "Доска для катания по искуственным волнам.",
+        "price": "1500",
+        "quantity": "2"
+    },
+    {
+        "category": "доски",
+        "img": "cards_images/surf2.jpg",
+        "name": "Surf slice",
+        "title": "Доска для катания по океаническим волнам.",
+        "price": "1200",
+        "quantity": "1"
+    },
+    {
+        "category": "доски",
+        "img": "cards_images/surf3.jpg",
+        "name": "Surf spring",
+        "title": "Доска для катания по по песчаным дюнам.",
+        "price": "1750",
+        "quantity": "23"
+    },
+    {
+        "category": "доски",
+        "img": "cards_images/surf4.jpg",
+        "name": "Surf short",
+        "title": "Доска для катания по тропическим пляжам.",
+        "price": "2988",
+        "quantity": "1"
+    },
+    {
+        "category": "доски",
+        "img": "cards_images/surf5.jpg",
+        "name": "Fish board",
+        "title": "Доска для катания по океаническим волнам.",
+        "price": "3752",
+        "quantity": "12"
+    },
+    {
+        "category": "доски",
+        "img": "cards_images/surf6.jpg",
+        "name": "Sup board",
+        "title": "Доска для катания по океаническим волнам.",
+        "price": "769",
+        "quantity": "8"
+    }
+]

@@ -1,0 +1,15 @@
+
+http://0.0.0.0:8000/
+http://0.0.0.0:8000/card/7/
+http://0.0.0.0:8000/contact/
+http://0.0.0.0:8000/category/0/1/
+http://0.0.0.0:8000/category/1/2/
+http://0.0.0.0:8000/category/2/1/
+http://0.0.0.0:8000/basket/
+http://0.0.0.0:8000/order/
+http://0.0.0.0:8000/auth/edit/
+http://0.0.0.0:8000/order/update/7/
+http://0.0.0.0:8000/order/update/8/
+http://0.0.0.0:8000/order/update/9/
+
+

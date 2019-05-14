@@ -1,0 +1,45 @@
+/	mainapp.views.index	main:index
+/__debug__/render_panel/	debug_toolbar.views.render_panel	djdt:render_panel
+/__debug__/sql_explain/	debug_toolbar.panels.sql.views.sql_explain	djdt:sql_explain
+/__debug__/sql_profile/	debug_toolbar.panels.sql.views.sql_profile	djdt:sql_profile
+/__debug__/sql_select/	debug_toolbar.panels.sql.views.sql_select	djdt:sql_select
+/__debug__/template_source/	debug_toolbar.panels.templates.views.template_source	djdt:template_source
+/auth/login/	authapp.views.login	auth:login
+/auth/logout/	authapp.views.logout	auth:logout
+/auth/register/	authapp.views.register	auth:register
+/auth/update/	authapp.views.update	auth:update
+/auth/verification_msg/	authapp.views.verification_msg	auth:verification_msg
+/auth/verify/<email>/<activation_key>/	authapp.views.verify	auth:verify
+/auth/verify/vk/oauth2/complete/<backend>/	social_django.views.complete	social:complete
+/auth/verify/vk/oauth2/disconnect/<backend>/	social_django.views.disconnect	social:disconnect
+/auth/verify/vk/oauth2/disconnect/<backend>/<association_id>/	social_django.views.disconnect	social:disconnect_individual
+/auth/verify/vk/oauth2/login/<backend>/	social_django.views.auth	social:begin
+/basket/	basketapp.views.index	basket:index
+/basket/add/<pk>/	basketapp.views.add	basket:add
+/basket/remove/<pk>/	basketapp.views.remove	basket:remove
+/basket/update/<pk>/<quantity>/	basketapp.views.update
+/card/<pk>/	mainapp.views.card	main:card
+/category/<pk>/<page>/	mainapp.views.category	main:category
+/contacts/	mainapp.views.contacts	main:contacts
+/media\/<path>	django.views.static.serve
+/myadmin/	adminapp.views.UsersListView	myadmin:index
+/myadmin/card/create/<pk>/	adminapp.views.card_create	myadmin:card_create
+/myadmin/card/delete/<pk>/	adminapp.views.card_delete	myadmin:card_delete
+/myadmin/card/read/<pk>/	adminapp.views.ProductDetailView	myadmin:card_read
+/myadmin/card/update/<pk>/	adminapp.views.card_update	myadmin:card_update
+/myadmin/cards/<pk>/	adminapp.views.cards	myadmin:cards
+/myadmin/categories/	adminapp.views.categories	myadmin:categories
+/myadmin/productcategory/create/	adminapp.views.ProductCategoryCreateView	myadmin:productcategory_create
+/myadmin/productcategory/delete/<pk>/	adminapp.views.ProductCategoryDeleteView	myadmin:productcategory_delete
+/myadmin/productcategory/update/<pk>/	adminapp.views.ProductCategoryUpdateView	myadmin:productcategory_update
+/myadmin/shopuser/create/	adminapp.views.shopuser_create	myadmin:shopuser_create
+/myadmin/shopuser/delete/<pk>/	adminapp.views.shopuser_delete	myadmin:shopuser_delete
+/myadmin/shopuser/recover/<pk>/	adminapp.views.shopuser_recover	myadmin:shopuser_recover
+/myadmin/shopuser/update/<pk>/	adminapp.views.shopuser_update	myadmin:shopuser_update
+/order/	ordersapp.views.OrderList	order:orders_list
+/order/create/	ordersapp.views.OrderCreate	order:order_create
+/order/delete/<pk>/	ordersapp.views.OrderDelete	order:order_delete
+/order/forming/complete/<pk>/	ordersapp.views.order_forming_complete	order:order_forming_complete
+/order/product/<pk>/price/	ordersapp.views.get_product_price
+/order/read/<pk>/	ordersapp.views.OrderRead	order:order_read
+/order/update/<pk>/	ordersapp.views.OrderUpdate	order:order_update

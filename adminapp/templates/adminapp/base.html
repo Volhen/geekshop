@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        {% block title %}
+            {{ title|title }}
+        {% endblock %}
+    </title>
+    {% block css %}
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="{% static '/style/admin.css' %}">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    {% endblock %}
+    {% block js %}
+    {% endblock %}
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="text-center col">
+                    <b><h2>Админка</h2></b>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                {% block menu %}
+                    <div class="row justify-content-center menu">
+                        {% include 'adminapp/includes/inc__menu.html' %}
+                    </div>
+                {% endblock %}
+            </div>
+        </div>
+        <div class="row admin_container">
+            {% block container %}
+            {% endblock %}
+        </div>
+    </div>
+</body>
+</html>

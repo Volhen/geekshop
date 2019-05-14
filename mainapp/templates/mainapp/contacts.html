@@ -1,0 +1,79 @@
+{% extends 'mainapp/base.html' %}
+
+{% load static %}
+
+
+{% block CSS %}
+    {{ block.super }}
+    <link rel="stylesheet" href="{% static '/style/style_contact.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="row" id="contacts">
+        <div class="container mt-5" >  
+            <div class="row" style="height:550px;">
+                <div class="col-md-6 maps" >
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.4195190846253!2d37.61127636011139!3d55.76858538554197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a41cd9cd2a7%3A0xf2c5c0eb1b6cdc5!2z0J_QtdGC0YDQvtCy0LrQsCDRg9C7LiwgMzQsINCc0L7RgdC60LLQsCwg0KDQvtGB0YHQuNGPLCAxMjcwMDY!5e0!3m2!1sru!2s!4v1553378494459" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-uppercase mt-3 font-weight-bold text-white">Контакты</h2>
+                    <form action="">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                <input type="text" class="form-control mt-2" placeholder="Фамилия" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                <input type="text" class="form-control mt-2" placeholder="Имя" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                <input type="email" class="form-control mt-2" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                <input type="number" class="form-control mt-2" placeholder="Телефон" required>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Введите сообщение" rows="3" required></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                    <label class="form-check-label" for="invalidCheck2">
+                                        Принять условия
+                                    </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-light" type="submit">Отправь</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="text-white">
+                        <h2 class="text-uppercase mt-4 font-weight-bold">Где мы?</h2>
+                
+                        <i class="fas fa-phone mt-3"></i> <a href="tel:+">8(495) 478 45 69</a><br>
+                        <i class="fas fa-phone mt-3"></i> <a href="tel:+">8(495) 478 47 63</a><br>
+                        <i class="fa fa-envelope mt-3"></i> <a href="">surfhouse@mail.ru</a><br>
+                        <i class="fas fa-globe mt-3"></i> г. Москва, ул. Петровка, д.34<br>
+                
+                        <div class="my-4">
+                            <a href="#"><i class="fab fa-facebook fa-3x pr-4"></i></a>
+                            <a href="#"><i class="fab fa-twitter fa-3x pr-4"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

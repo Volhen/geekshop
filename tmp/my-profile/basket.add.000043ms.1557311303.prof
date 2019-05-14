@@ -1,0 +1,3727 @@
+events: Ticks
+summary: 43
+fn=<method 'encode' of 'str' objects>
+0  0
+
+fn=<method 'replace' of 'str' objects>
+0  0
+
+fn=<method 'split' of 'str' objects>
+0  0
+
+fn=<method 'rsplit' of 'str' objects>
+0  0
+
+fn=<method 'join' of 'str' objects>
+0  0
+
+fn=<method 'count' of 'str' objects>
+0  0
+
+fn=<method 'find' of 'str' objects>
+0  0
+
+fn=<method 'lower' of 'str' objects>
+0  0
+
+fn=<method 'lstrip' of 'str' objects>
+0  0
+
+fn=<method 'rfind' of 'str' objects>
+0  0
+
+fn=<method 'rstrip' of 'str' objects>
+0  0
+
+fn=<method 'strip' of 'str' objects>
+0  0
+
+fn=<method 'translate' of 'str' objects>
+0  0
+
+fn=<method 'upper' of 'str' objects>
+0  0
+
+fn=<method 'startswith' of 'str' objects>
+0  0
+
+fn=<method 'endswith' of 'str' objects>
+0  0
+
+fn=<method 'isupper' of 'str' objects>
+0  0
+
+fn=<method 'isdigit' of 'str' objects>
+0  0
+
+fn=<method 'format' of 'str' objects>
+0  0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=__str__
+calls=22 186
+0 0
+
+fn=<method 'isdisjoint' of 'frozenset' objects>
+0  0
+
+fn=<method '__contains__' of 'dict' objects>
+0  0
+
+fn=<method 'get' of 'dict' objects>
+0  0
+
+fn=<method 'pop' of 'dict' objects>
+0  0
+
+fn=<method 'items' of 'dict' objects>
+0  0
+
+fn=<method 'values' of 'dict' objects>
+0  0
+
+fn=<method 'update' of 'dict' objects>
+0  0
+
+fn=<method 'append' of 'list' objects>
+0  0
+
+fn=<method 'insert' of 'list' objects>
+0  0
+
+fn=<method 'extend' of 'list' objects>
+0  0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=<genexpr>
+calls=20 497
+0 0
+
+fn=<method 'pop' of 'list' objects>
+0  0
+
+fn=<method 'reverse' of 'list' objects>
+0  0
+
+fn=<method 'decode' of 'bytes' objects>
+0  0
+
+fn=<method 'join' of 'bytes' objects>
+0  0
+
+fn=<method 'rstrip' of 'bytes' objects>
+0  0
+
+fn=<method 'write' of '_io.TextIOWrapper' objects>
+0  0
+
+fn=<method 'read' of '_io.TextIOWrapper' objects>
+0  0
+cfl=/home/alexzev/project/mysite/lib/python3.6/codecs.py
+cfn=decode
+calls=1 318
+0 0
+
+fn=<method 'flush' of '_io.TextIOWrapper' objects>
+0  0
+
+fn=<built-in method time.time>
+0  0
+
+fn=<built-in method posix.stat>
+0  1
+
+fn=<built-in method posix.getpid>
+0  0
+
+fn=<built-in method posix.open>
+0  0
+
+fn=<built-in method posix.fspath>
+0  0
+
+fn=<method 'group' of '_sre.SRE_Match' objects>
+0  0
+
+fn=<method 'start' of '_sre.SRE_Match' objects>
+0  0
+
+fn=<method 'end' of '_sre.SRE_Match' objects>
+0  0
+
+fn=<method 'span' of '_sre.SRE_Match' objects>
+0  0
+
+fn=<method 'groups' of '_sre.SRE_Match' objects>
+0  0
+
+fn=<method 'groupdict' of '_sre.SRE_Match' objects>
+0  0
+
+fn=<method 'match' of '_sre.SRE_Pattern' objects>
+0  0
+
+fn=<method 'search' of '_sre.SRE_Pattern' objects>
+0  1
+
+fn=<method 'split' of '_sre.SRE_Pattern' objects>
+0  0
+
+fn=<method 'finditer' of '_sre.SRE_Pattern' objects>
+0  0
+
+fn=<built-in method _thread.allocate_lock>
+0  0
+
+fn=<built-in method _thread.get_ident>
+0  0
+
+fn=<method 'acquire' of '_thread.RLock' objects>
+0  0
+
+fn=<method 'release' of '_thread.RLock' objects>
+0  0
+
+fn=<built-in method io.open>
+0  0
+cfl=/home/alexzev/project/mysite/lib/python3.6/_bootlocale.py
+cfn=getpreferredencoding
+calls=1 23
+0 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=_opener
+calls=1 1035
+0 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/codecs.py
+cfn=__init__
+calls=1 308
+0 0
+
+fn=<built-in method _locale.nl_langinfo>
+0  0
+
+fn=<built-in method _codecs.utf_8_decode>
+0  0
+
+fn=<method 'clear' of 'collections.deque' objects>
+0  0
+
+fn=<built-in method fromtimestamp>
+0  0
+
+fn=<built-in method _imp.acquire_lock>
+0  0
+
+fn=<built-in method _imp.release_lock>
+0  0
+
+fn=<built-in method builtins.any>
+0  0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=<genexpr>
+calls=216 687
+0 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=<genexpr>
+calls=288 690
+0 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+cfn=<genexpr>
+calls=45 90
+0 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/functional.py
+cfn=<genexpr>
+calls=100 193
+0 1
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+cfn=<genexpr>
+calls=2 583
+0 0
+
+fn=<built-in method builtins.callable>
+0  0
+
+fn=<built-in method builtins.dir>
+0  0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/functional.py
+cfn=inner
+calls=1 211
+0 0
+
+fn=<built-in method builtins.getattr>
+0  0
+
+fn=<built-in method builtins.hasattr>
+0  0
+
+fn=<built-in method builtins.id>
+0  0
+
+fn=<built-in method builtins.isinstance>
+0  2
+
+fn=<built-in method builtins.issubclass>
+0  0
+
+fn=<built-in method builtins.iter>
+0  0
+
+fn=<built-in method builtins.len>
+0  0
+
+fn=<built-in method builtins.max>
+0  0
+
+fn=<built-in method builtins.min>
+0  0
+
+fn=<built-in method builtins.next>
+0  0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+cfn=push_state
+calls=2 201
+0 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+cfn=bind_template
+calls=2 148
+0 0
+
+fn=<built-in method builtins.repr>
+0  0
+cfl=<frozen importlib._bootstrap>
+cfn=_module_repr
+calls=13 269
+0 0
+
+fn=<built-in method __new__ of type object at 0x9cff80>
+0  0
+
+fn=<built-in method sys._getframe>
+0  0
+
+fn=<built-in method sys.intern>
+0  0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/messages/storage/session.py
+fn=__init__
+16 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/messages/storage/base.py
+cfn=__init__
+calls=1 51
+16 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+16 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/messages/storage/base.py
+fn=__init__
+51 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/messages/storage/base.py
+fn=_prepare_messages
+108 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/messages/storage/base.py
+fn=update
+115 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/messages/storage/base.py
+cfn=_prepare_messages
+calls=1 108
+115 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/sessions/middleware.py
+fn=process_request
+18 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/functional.py
+cfn=__get__
+calls=1 29
+18 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/sessions/backends/db.py
+cfn=__init__
+calls=1 16
+18 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+18 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/sessions/middleware.py
+fn=process_response
+22 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py
+cfn=is_empty
+calls=1 142
+22 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/common.py
+fn=should_redirect_with_slash
+62 0
+cfn=<method 'endswith' of 'str' objects>
+calls=2 0
+62 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/common.py
+fn=process_request
+34 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/common.py
+cfn=should_redirect_with_slash
+calls=1 62
+34 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+cfn=get_host
+calls=1 88
+34 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+cfn=get_full_path
+calls=2 116
+34 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/common.py
+fn=process_response
+98 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+cfn=__setitem__
+calls=1 135
+98 0
+cfn=<built-in method builtins.len>
+calls=1 0
+98 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+cfn=has_header
+calls=1 146
+98 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+cfn=content
+calls=1 306
+98 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/common.py
+cfn=should_redirect_with_slash
+calls=1 62
+98 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py
+fn=__init__
+45 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py
+cfn=_set_session_key
+calls=1 171
+45 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/module_loading.py
+cfn=import_string
+calls=1 7
+45 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py
+fn=is_empty
+142 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py
+cfn=_get_session_key
+calls=1 168
+142 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py
+fn=_validate_session_key
+161 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py
+fn=_get_session_key
+168 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py
+fn=_set_session_key
+171 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py
+cfn=_validate_session_key
+calls=1 161
+171 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/auth/middleware.py
+fn=process_request
+17 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/functional.py
+cfn=__init__
+calls=1 334
+17 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+17 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/messages/middleware.py
+fn=process_response
+14 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/messages/storage/base.py
+cfn=update
+calls=1 115
+14 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+14 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/clickjacking.py
+fn=process_response
+24 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+cfn=__setitem__
+calls=1 135
+24 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+cfn=get
+calls=1 155
+24 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+24 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/clickjacking.py
+cfn=get_xframe_options_value
+calls=1 37
+24 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/messages/middleware.py
+fn=process_request
+11 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/messages/storage/__init__.py
+cfn=default_storage
+calls=1 5
+11 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/clickjacking.py
+fn=get_xframe_options_value
+37 0
+cfn=<method 'upper' of 'str' objects>
+calls=1 0
+37 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+37 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/messages/storage/fallback.py
+fn=__init__
+13 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/messages/storage/base.py
+cfn=__init__
+calls=1 51
+13 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/messages/storage/fallback.py
+cfn=<listcomp>
+calls=1 15
+13 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/sessions/backends/db.py
+fn=__init__
+16 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py
+cfn=__init__
+calls=1 45
+16 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/messages/storage/fallback.py
+fn=<listcomp>
+15 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/messages/storage/base.py
+cfn=__init__
+calls=1 51
+15 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/messages/storage/session.py
+cfn=__init__
+calls=1 16
+15 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/debug_toolbar/middleware.py
+fn=process_response
+90 0
+cfl=/usr/lib/python3.6/threading.py
+cfn=current_thread
+calls=1 1230
+90 0
+cfl=/usr/lib/python3.6/threading.py
+cfn=ident
+calls=1 1092
+90 0
+cfn=<method 'pop' of 'dict' objects>
+calls=1 0
+90 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/security.py
+fn=process_request
+20 0
+cfn=<method 'lstrip' of 'str' objects>
+calls=1 0
+20 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/security.py
+fn=process_response
+30 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/debug_toolbar/middleware.py
+fn=process_request
+52 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+cfn=is_ajax
+calls=1 225
+52 0
+cfl=/home/alexzev/project/mysite/geekshop/geekshop/settings.py
+cfn=<lambda>
+calls=1 67
+52 0
+
+fn=<method 'disable' of '_lsprof.Profiler' objects>
+0  0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/debug_toolbar/panels/logging.py
+fn=collect
+20 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/debug_toolbar/utils.py
+cfn=collect
+calls=1 254
+20 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+20 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/debug_toolbar/panels/logging.py
+fn=emit
+33 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=getMessage
+calls=1 329
+33 0
+cfn=<built-in method fromtimestamp>
+calls=1 0
+33 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/debug_toolbar/panels/logging.py
+cfn=collect
+calls=1 20
+33 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/template_profiler_panel/panels/template.py
+fn=template_render_wrapper
+27 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=stack
+calls=1 1497
+27 11
+cfn=<built-in method time.time>
+calls=2 0
+27 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=render
+calls=1 165
+27 14
+cfn=<built-in method builtins.len>
+calls=1 0
+27 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+27 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=send
+calls=1 152
+27 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/test/utils.py
+fn=instrumented_test_render
+90 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=render
+calls=1 933
+90 14
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=send
+calls=1 152
+90 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/debug_toolbar/utils.py
+fn=get_collection
+237 0
+cfl=/usr/lib/python3.6/threading.py
+cfn=current_thread
+calls=1 1230
+237 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/debug_toolbar/utils.py
+fn=collect
+254 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/debug_toolbar/utils.py
+cfn=get_collection
+calls=1 237
+254 0
+cfn=<method 'append' of 'list' objects>
+calls=1 0
+254 0
+
+fl=/usr/lib/python3.6/wsgiref/handlers.py
+fn=start_response
+212 0
+cfl=/usr/lib/python3.6/wsgiref/headers.py
+cfn=__init__
+calls=1 31
+212 0
+cfl=/usr/lib/python3.6/wsgiref/handlers.py
+cfn=_convert_string_type
+calls=7 240
+212 0
+cfn=<method 'isdigit' of 'str' objects>
+calls=1 0
+212 0
+cfl=/usr/lib/python3.6/wsgiref/util.py
+cfn=is_hop_by_hop
+calls=3 163
+212 0
+cfn=<built-in method builtins.len>
+calls=1 0
+212 0
+
+fl=/usr/lib/python3.6/wsgiref/handlers.py
+fn=_convert_string_type
+240 0
+
+fl=/usr/lib/python3.6/wsgiref/util.py
+fn=is_hop_by_hop
+163 0
+cfn=<method '__contains__' of 'dict' objects>
+calls=3 0
+163 0
+cfn=<method 'lower' of 'str' objects>
+calls=3 0
+163 0
+
+fl=/usr/lib/python3.6/wsgiref/headers.py
+fn=__init__
+31 0
+cfl=/usr/lib/python3.6/wsgiref/headers.py
+cfn=_convert_string_type
+calls=6 41
+31 0
+
+fl=/usr/lib/python3.6/wsgiref/headers.py
+fn=_convert_string_type
+41 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py
+fn=_should_handle
+34 0
+cfn=<method 'startswith' of 'str' objects>
+calls=1 0
+34 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py
+fn=__call__
+63 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_path_info
+calls=1 156
+63 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py
+cfn=_should_handle
+calls=1 34
+63 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=__call__
+calls=1 138
+63 43
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/exception.py
+fn=inner
+31 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/exception.py
+cfn=response_for_exception
+calls=1 41
+31 39
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/base.py
+cfn=_get_response
+calls=1 96
+31 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/deprecation.py
+cfn=__call__
+calls=9 87
+31 41
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/exception.py
+fn=response_for_exception
+41 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/views/debug.py
+cfn=technical_404_response
+calls=1 456
+41 38
+cfn=<built-in method builtins.getattr>
+calls=1 0
+41 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+41 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=__init__
+19 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=__init__
+67 0
+cfn=<method 'upper' of 'str' objects>
+calls=1 0
+67 0
+cfn=<method 'rstrip' of 'str' objects>
+calls=1 0
+67 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=__init__
+calls=1 19
+67 0
+cfl=/usr/lib/python3.6/cgi.py
+cfn=parse_header
+calls=1 313
+67 0
+cfn=<method 'replace' of 'str' objects>
+calls=1 0
+67 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_path_info
+calls=1 156
+67 0
+cfn=<method 'get' of 'dict' objects>
+calls=2 0
+67 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_script_name
+calls=1 163
+67 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=_get_scheme
+100 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+100 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=COOKIES
+117 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/cookie.py
+cfn=parse_cookie
+calls=1 10
+117 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_str_from_wsgi
+calls=1 207
+117 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=__call__
+138 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+cfn=items
+calls=1 152
+138 0
+cfl=/usr/lib/python3.6/wsgiref/handlers.py
+cfn=start_response
+calls=1 212
+138 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=__init__
+calls=1 67
+138 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/base.py
+cfn=get_response
+calls=1 73
+138 42
+cfn=<built-in method builtins.getattr>
+calls=1 0
+138 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+cfn=reason_phrase
+calls=1 64
+138 0
+cfn=<method 'values' of 'dict' objects>
+calls=1 0
+138 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_script_name
+calls=1 163
+138 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/base.py
+cfn=set_script_prefix
+calls=1 102
+138 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=send
+calls=1 152
+138 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=get_path_info
+156 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_bytes_from_wsgi
+calls=2 194
+156 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+156 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/encoding.py
+cfn=repercent_broken_unicode
+calls=2 225
+156 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=get_script_name
+163 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_bytes_from_wsgi
+calls=6 194
+163 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+163 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=get_bytes_from_wsgi
+194 0
+cfn=<method 'encode' of 'str' objects>
+calls=9 0
+194 0
+cfn=<method 'get' of 'dict' objects>
+calls=9 0
+194 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+fn=get_str_from_wsgi
+207 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=get_bytes_from_wsgi
+calls=1 194
+207 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=1 0
+207 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/base.py
+fn=get_response
+73 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+73 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/base.py
+cfn=set_urlconf
+calls=1 130
+73 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/exception.py
+cfn=inner
+calls=1 31
+73 41
+cfn=<method 'append' of 'list' objects>
+calls=1 0
+73 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+cfn=reason_phrase
+calls=1 64
+73 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/log.py
+cfn=log_response
+calls=1 199
+73 1
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/base.py
+fn=_get_response
+96 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=resolve
+calls=1 485
+96 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+96 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/db/backends/base/base.py
+fn=close_if_unusable_or_obsolete
+491 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/csrf.py
+fn=_sanitize_token
+106 0
+cfn=<built-in method builtins.len>
+calls=1 0
+106 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/re.py
+cfn=search
+calls=1 179
+106 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/csrf.py
+fn=_get_token
+159 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/csrf.py
+cfn=_sanitize_token
+calls=1 106
+159 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/csrf.py
+fn=process_request
+199 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/csrf.py
+cfn=_get_token
+calls=1 159
+199 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/csrf.py
+fn=process_response
+314 0
+cfn=<built-in method builtins.getattr>
+calls=2 0
+314 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+314 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/messages/storage/__init__.py
+fn=default_storage
+5 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/messages/storage/fallback.py
+cfn=__init__
+calls=1 13
+5 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/module_loading.py
+cfn=import_string
+calls=1 7
+5 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/smartif.py
+fn=__init__
+153 0
+cfn=<built-in method builtins.len>
+calls=4 0
+153 0
+cfn=<method 'append' of 'list' objects>
+calls=6 0
+153 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/smartif.py
+cfn=translate_token
+calls=6 173
+153 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/smartif.py
+cfn=next_token
+calls=4 181
+153 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/smartif.py
+fn=translate_token
+173 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+cfn=create_var
+calls=5 885
+173 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/smartif.py
+fn=next_token
+181 0
+cfn=<built-in method builtins.len>
+calls=10 0
+181 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/smartif.py
+fn=parse
+189 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/smartif.py
+cfn=expression
+calls=4 197
+189 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/smartif.py
+fn=expression
+197 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/smartif.py
+cfn=next_token
+calls=6 181
+197 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/smartif.py
+cfn=nud
+calls=5 130
+197 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/smartif.py
+cfn=led
+calls=1 51
+197 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+fn=__init__
+136 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+fn=render
+155 1
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=resolve
+calls=15 668
+155 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+cfn=__getitem__
+calls=14 78
+155 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+cfn=__contains__
+calls=15 89
+155 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/safestring.py
+cfn=mark_safe
+calls=15 71
+155 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+cfn=__enter__
+calls=15 20
+155 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+cfn=__setitem__
+calls=51 62
+155 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+cfn=__exit__
+calls=15 23
+155 0
+cfn=<method 'join' of 'str' objects>
+calls=15 0
+155 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=render_annotated
+calls=152 896
+155 10
+cfn=<built-in method builtins.len>
+calls=30 0
+155 0
+cfn=<method 'append' of 'list' objects>
+calls=152 0
+155 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+cfn=push
+calls=15 48
+155 0
+cfn=<built-in method builtins.hasattr>
+calls=15 0
+155 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+fn=__init__
+283 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+fn=render
+297 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+cfn=eval
+calls=3 874
+297 1
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/smartif.py
+cfn=eval
+calls=22 56
+297 2
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=render
+calls=9 933
+297 11
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+fn=do_for
+728 0
+cfn=<method 'join' of 'str' objects>
+calls=2 0
+728 0
+cfn=<built-in method builtins.len>
+calls=2 0
+728 0
+cfn=<method 'isdisjoint' of 'frozenset' objects>
+calls=2 0
+728 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+cfn=__init__
+calls=2 136
+728 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/re.py
+cfn=split
+calls=2 204
+728 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=split_contents
+calls=2 317
+728 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=compile_filter
+calls=2 559
+728 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=next_token
+calls=2 546
+728 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=parse
+calls=2 426
+728 1
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+fn=__init__
+867 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+fn=eval
+874 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=resolve
+calls=39 668
+874 3
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+fn=__init__
+881 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/smartif.py
+cfn=__init__
+calls=4 153
+881 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+fn=create_var
+885 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+cfn=__init__
+calls=5 867
+885 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=compile_filter
+calls=5 559
+885 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+fn=do_if
+889 0
+cfn=<method 'append' of 'list' objects>
+calls=2 0
+889 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+cfn=__init__
+calls=4 881
+889 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/smartif.py
+cfn=parse
+calls=4 189
+889 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+cfn=__init__
+calls=4 283
+889 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=split_contents
+calls=4 317
+889 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=next_token
+calls=6 546
+889 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=parse
+calls=6 426
+889 2
+cfn=<method 'startswith' of 'str' objects>
+calls=4 0
+889 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/smartif.py
+fn=led
+51 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/smartif.py
+cfn=expression
+calls=1 197
+51 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/smartif.py
+fn=eval
+56 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/smartif.py
+cfn=<lambda>
+calls=22 95
+56 2
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/smartif.py
+fn=<lambda>
+95 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+cfn=eval
+calls=36 874
+95 1
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/smartif.py
+fn=nud
+130 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/views/debug.py
+fn=technical_404_response
+456 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+cfn=__init__
+calls=1 288
+456 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/base.py
+cfn=resolve
+calls=1 21
+456 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=open
+calls=1 1174
+456 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=__new__
+calls=1 998
+456 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/template_profiler_panel/panels/template.py
+cfn=template_render_wrapper
+calls=1 27
+456 25
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/views/debug.py
+cfn=get_safe_settings
+calls=1 72
+456 3
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+cfn=__init__
+calls=1 137
+456 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=__repr__
+calls=9 319
+456 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+456 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+456 0
+cfn=<method 'read' of '_io.TextIOWrapper' objects>
+calls=1 0
+456 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/engine.py
+cfn=from_string
+calls=1 132
+456 4
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=__repr__
+calls=13 383
+456 3
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/views/debug.py
+fn=<dictcomp>
+58 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/views/debug.py
+cfn=cleanse_setting
+calls=22 48
+58 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/views/debug.py
+fn=cleanse_setting
+48 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/views/debug.py
+cfn=__init__
+calls=1 41
+48 0
+cfn=<method 'items' of 'dict' objects>
+calls=11 0
+48 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/views/debug.py
+cfn=<dictcomp>
+calls=11 58
+48 0
+cfn=<built-in method builtins.callable>
+calls=177 0
+48 0
+cfn=<built-in method builtins.isinstance>
+calls=165 0
+48 0
+cfn=<method 'search' of '_sre.SRE_Pattern' objects>
+calls=177 0
+48 1
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/views/debug.py
+fn=get_safe_settings
+72 0
+cfn=<method 'isupper' of 'str' objects>
+calls=183 0
+72 0
+cfn=<built-in method builtins.dir>
+calls=1 0
+72 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/views/debug.py
+cfn=cleanse_setting
+calls=155 48
+72 2
+cfn=<built-in method builtins.getattr>
+calls=155 0
+72 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/views/debug.py
+fn=__init__
+41 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/log.py
+fn=filter
+158 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/log.py
+fn=log_response
+199 0
+cfn=<built-in method builtins.getattr>
+calls=2 0
+199 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=warning
+calls=1 1310
+199 1
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+fn=__repr__
+319 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=describe
+calls=9 105
+319 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+fn=resolve
+341 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=match
+calls=18 147
+341 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+fn=__repr__
+383 2
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=describe
+calls=13 105
+383 0
+cfn=<built-in method builtins.isinstance>
+calls=13 0
+383 0
+cfn=<built-in method builtins.repr>
+calls=13 0
+383 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+fn=<genexpr>
+497 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+fn=resolve
+485 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=resolve
+calls=14 485
+485 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=resolve
+calls=18 341
+485 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=match
+calls=16 147
+485 0
+cfn=<method 'extend' of 'list' objects>
+calls=4 0
+485 0
+cfn=<method 'append' of 'list' objects>
+calls=28 0
+485 0
+cfn=<method 'get' of 'dict' objects>
+calls=14 0
+485 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+fn=__init__
+28 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+cfn=_reset_dicts
+calls=2 31
+28 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+fn=_reset_dicts
+31 0
+cfn=<method 'append' of 'list' objects>
+calls=1 0
+31 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=filter
+705 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/log.py
+cfn=filter
+calls=1 158
+705 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+705 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=acquire
+809 0
+cfn=<method 'acquire' of '_thread.RLock' objects>
+calls=3 0
+809 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=release
+816 0
+cfn=<method 'release' of '_thread.RLock' objects>
+calls=3 0
+816 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=format
+829 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=format
+calls=1 564
+829 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=handle
+852 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=filter
+calls=2 705
+852 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=acquire
+calls=2 809
+852 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=emit
+calls=1 982
+852 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=release
+calls=2 816
+852 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/debug_toolbar/panels/logging.py
+cfn=emit
+calls=1 33
+852 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=flush
+971 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=acquire
+calls=1 809
+971 0
+cfn=<method 'flush' of '_io.TextIOWrapper' objects>
+calls=1 0
+971 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=release
+calls=1 816
+971 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+971 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=emit
+982 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=format
+calls=1 829
+982 0
+cfn=<method 'write' of '_io.TextIOWrapper' objects>
+calls=2 0
+982 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=flush
+calls=1 971
+982 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+fn=push
+48 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+cfn=__init__
+calls=16 14
+48 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+fn=pop
+57 0
+cfn=<built-in method builtins.len>
+calls=16 0
+57 0
+cfn=<method 'pop' of 'list' objects>
+calls=16 0
+57 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+fn=__setitem__
+62 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+fn=__getitem__
+78 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=debug
+1286 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=isEnabledFor
+calls=5 1544
+1286 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=warning
+1310 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=isEnabledFor
+calls=1 1544
+1310 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=_log
+calls=1 1421
+1310 1
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=findCaller
+1376 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=<lambda>
+calls=1 157
+1376 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/posixpath.py
+cfn=normcase
+calls=1 52
+1376 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+1376 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=makeRecord
+1406 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=__init__
+calls=1 251
+1406 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=_log
+1421 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=makeRecord
+calls=1 1406
+1421 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=handle
+calls=1 1446
+1421 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=findCaller
+calls=1 1376
+1421 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=handle
+1446 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=filter
+calls=1 705
+1446 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=callHandlers
+calls=1 1500
+1446 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=callHandlers
+1500 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=handle
+calls=2 852
+1500 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=getEffectiveLevel
+1530 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=isEnabledFor
+1544 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=getEffectiveLevel
+calls=6 1530
+1544 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+fn=<genexpr>
+90 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+fn=__contains__
+89 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+cfn=<genexpr>
+calls=14 90
+89 0
+cfn=<built-in method builtins.any>
+calls=15 0
+89 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+fn=__init__
+137 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+cfn=__init__
+calls=2 28
+137 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+fn=bind_template
+148 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+fn=push_state
+201 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+cfn=pop
+calls=1 57
+201 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+cfn=push
+calls=1 48
+201 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/formats.py
+fn=localize
+187 0
+cfn=<built-in method builtins.isinstance>
+calls=144 0
+187 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/engine.py
+fn=from_string
+132 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=__init__
+calls=1 142
+132 4
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=__init__
+109 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=__init__
+118 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=__init__
+142 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=__init__
+calls=1 118
+142 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=compile_nodelist
+calls=1 175
+142 4
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=render
+165 0
+cfl=/usr/lib/python3.6/contextlib.py
+cfn=__exit__
+calls=2 85
+165 0
+cfl=/usr/lib/python3.6/contextlib.py
+cfn=helper
+calls=2 157
+165 0
+cfl=/usr/lib/python3.6/contextlib.py
+cfn=__enter__
+calls=2 79
+165 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/test/utils.py
+cfn=instrumented_test_render
+calls=1 90
+165 14
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=compile_nodelist
+175 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=tokenize
+calls=1 383
+175 1
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=__init__
+calls=1 334
+175 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=__init__
+calls=1 410
+175 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=parse
+calls=1 426
+175 3
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=__init__
+289 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=split_contents
+317 0
+cfn=<method 'append' of 'list' objects>
+calls=18 0
+317 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/text.py
+cfn=smart_split
+calls=24 335
+317 0
+cfn=<method 'startswith' of 'str' objects>
+calls=18 0
+317 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=__init__
+334 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=create_token
+352 0
+cfn=<method 'strip' of 'str' objects>
+calls=23 0
+352 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=__init__
+calls=47 289
+352 0
+cfn=<method 'startswith' of 'str' objects>
+calls=60 0
+352 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=tokenize
+383 0
+cfn=<built-in method builtins.len>
+calls=1 0
+383 0
+cfn=<method 'append' of 'list' objects>
+calls=47 0
+383 0
+cfn=<method 'count' of 'str' objects>
+calls=46 0
+383 0
+cfn=<method 'finditer' of '_sre.SRE_Pattern' objects>
+calls=1 0
+383 0
+cfn=<method 'span' of '_sre.SRE_Match' objects>
+calls=23 0
+383 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=create_token
+calls=47 352
+383 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=__init__
+410 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=add_library
+calls=3 555
+410 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=parse
+426 0
+cfn=<method 'split' of 'str' objects>
+calls=14 0
+426 0
+cfn=<method 'append' of 'list' objects>
+calls=6 0
+426 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+cfn=do_if
+calls=4 889
+426 2
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=prepend_token
+calls=8 549
+426 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=__init__
+calls=9 979
+426 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+cfn=do_for
+calls=2 728
+426 1
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=compile_filter
+calls=9 559
+426 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=extend_nodelist
+calls=39 493
+426 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=next_token
+calls=47 546
+426 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=__init__
+calls=24 952
+426 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/types.py
+cfn=__get__
+calls=84 135
+426 0
+cfn=<method 'pop' of 'list' objects>
+calls=6 0
+426 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=extend_nodelist
+493 0
+cfn=<method 'append' of 'list' objects>
+calls=39 0
+493 0
+cfn=<built-in method builtins.isinstance>
+calls=78 0
+493 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=next_token
+546 0
+cfn=<method 'pop' of 'list' objects>
+calls=55 0
+546 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=prepend_token
+549 0
+cfn=<method 'insert' of 'list' objects>
+calls=8 0
+549 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=add_library
+555 0
+cfn=<method 'update' of 'dict' objects>
+calls=6 0
+555 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=compile_filter
+559 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=__init__
+calls=16 624
+559 1
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=__init__
+624 0
+cfn=<method 'end' of '_sre.SRE_Match' objects>
+calls=16 0
+624 0
+cfn=<built-in method builtins.len>
+calls=16 0
+624 0
+cfn=<method 'start' of '_sre.SRE_Match' objects>
+calls=16 0
+624 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=__init__
+calls=16 746
+624 1
+cfn=<method 'group' of '_sre.SRE_Match' objects>
+calls=16 0
+624 0
+cfn=<method 'finditer' of '_sre.SRE_Pattern' objects>
+calls=16 0
+624 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=resolve
+668 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=resolve
+calls=88 792
+668 4
+cfn=<built-in method builtins.isinstance>
+calls=88 0
+668 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=__init__
+746 0
+cfn=<method 'find' of 'str' objects>
+calls=16 0
+746 0
+cfn=<method 'split' of 'str' objects>
+calls=16 0
+746 0
+cfn=<built-in method builtins.isinstance>
+calls=16 0
+746 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/functional.py
+cfn=wrapper
+calls=16 191
+746 0
+cfn=<method 'lower' of 'str' objects>
+calls=9 0
+746 0
+cfn=<method 'startswith' of 'str' objects>
+calls=16 0
+746 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=resolve
+792 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=_resolve_lookup
+calls=88 816
+792 4
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=_resolve_lookup
+816 2
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+cfn=__getitem__
+calls=88 78
+816 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+cfn=build_absolute_uri
+calls=1 165
+816 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=__init__
+calls=5 109
+816 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=debug
+calls=5 1286
+816 0
+cfn=<built-in method builtins.dir>
+calls=5 0
+816 0
+cfn=<built-in method builtins.callable>
+calls=152 0
+816 0
+cfn=<built-in method builtins.getattr>
+calls=58 0
+816 0
+cfn=<built-in method builtins.isinstance>
+calls=51 0
+816 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=render_annotated
+896 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=render
+calls=34 985
+896 5
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+cfn=render
+calls=25 297
+896 13
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=render
+calls=120 958
+896 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/defaulttags.py
+cfn=render
+calls=15 155
+896 11
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=render
+933 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/safestring.py
+cfn=__str__
+calls=15 57
+933 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/safestring.py
+cfn=mark_safe
+calls=10 71
+933 0
+cfn=<method 'join' of 'str' objects>
+calls=10 0
+933 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=render_annotated
+calls=42 896
+933 14
+cfn=<method 'append' of 'list' objects>
+calls=42 0
+933 0
+cfn=<built-in method builtins.isinstance>
+calls=42 0
+933 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=__init__
+952 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=render
+958 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=render_value_in_context
+962 0
+cfn=<built-in method builtins.issubclass>
+calls=34 0
+962 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/timezone.py
+cfn=template_localtime
+calls=34 165
+962 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/formats.py
+cfn=localize
+calls=34 187
+962 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/html.py
+cfn=conditional_escape
+calls=34 95
+962 3
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=__str__
+calls=22 186
+962 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=__init__
+979 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+fn=render
+985 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=resolve
+calls=34 668
+985 1
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/base.py
+cfn=render_value_in_context
+calls=34 962
+985 4
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=getLevelName
+120 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+120 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=<lambda>
+157 0
+cfn=<built-in method sys._getframe>
+calls=1 0
+157 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=__init__
+251 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=getLevelName
+calls=1 120
+251 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/posixpath.py
+cfn=basename
+calls=1 144
+251 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/posixpath.py
+cfn=splitext
+calls=1 121
+251 0
+cfl=/usr/lib/python3.6/threading.py
+cfn=name
+calls=1 1076
+251 0
+cfn=<built-in method posix.getpid>
+calls=1 0
+251 0
+cfn=<built-in method time.time>
+calls=1 0
+251 0
+cfn=<built-in method builtins.len>
+calls=1 0
+251 0
+cfl=/usr/lib/python3.6/threading.py
+cfn=current_thread
+calls=1 1230
+251 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+251 0
+cfn=<built-in method _thread.get_ident>
+calls=1 0
+251 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+251 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=getMessage
+329 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+fn=__init__
+14 0
+cfn=<method 'append' of 'list' objects>
+calls=16 0
+14 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=usesTime
+387 0
+cfn=<method 'find' of 'str' objects>
+calls=1 0
+387 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=format
+390 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+fn=__enter__
+20 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+fn=__exit__
+23 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/template/context.py
+cfn=pop
+calls=15 57
+23 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=usesTime
+542 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=usesTime
+calls=1 387
+542 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=formatMessage
+548 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=format
+calls=1 390
+548 0
+
+fl=/usr/lib/python3.6/logging/__init__.py
+fn=format
+564 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=getMessage
+calls=1 329
+564 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=usesTime
+calls=1 542
+564 0
+cfl=/usr/lib/python3.6/logging/__init__.py
+cfn=formatMessage
+calls=1 548
+564 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/html.py
+fn=escape
+36 0
+cfn=<method 'translate' of 'str' objects>
+calls=34 0
+36 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/safestring.py
+cfn=mark_safe
+calls=34 71
+36 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/timezone.py
+fn=template_localtime
+165 0
+cfn=<built-in method builtins.isinstance>
+calls=34 0
+165 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/html.py
+fn=conditional_escape
+95 0
+cfn=<built-in method builtins.isinstance>
+calls=34 0
+95 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/functional.py
+cfn=wrapper
+calls=34 191
+95 2
+cfn=<built-in method builtins.hasattr>
+calls=34 0
+95 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/safestring.py
+fn=__str__
+57 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/safestring.py
+fn=mark_safe
+71 0
+cfn=<built-in method builtins.isinstance>
+calls=59 0
+71 0
+cfn=<built-in method builtins.hasattr>
+calls=59 0
+71 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+fn=_convert_to_charset
+108 0
+cfn=<built-in method builtins.isinstance>
+calls=24 0
+108 0
+cfn=<method 'encode' of 'str' objects>
+calls=6 0
+108 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+fn=__setitem__
+135 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+cfn=_convert_to_charset
+calls=6 108
+135 0
+cfn=<method 'lower' of 'str' objects>
+calls=3 0
+135 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+fn=has_header
+146 0
+cfn=<method 'lower' of 'str' objects>
+calls=1 0
+146 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+fn=items
+152 0
+cfn=<method 'values' of 'dict' objects>
+calls=1 0
+152 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+fn=get
+155 0
+cfn=<method 'get' of 'dict' objects>
+calls=2 0
+155 0
+cfn=<method 'lower' of 'str' objects>
+calls=2 0
+155 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+fn=make_bytes
+224 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+cfn=charset
+calls=1 76
+224 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+224 0
+cfn=<method 'encode' of 'str' objects>
+calls=1 0
+224 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+fn=__init__
+288 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+cfn=__init__
+calls=1 38
+288 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+cfn=content
+calls=1 310
+288 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+fn=content
+306 0
+cfn=<method 'join' of 'bytes' objects>
+calls=1 0
+306 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+fn=content
+310 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+cfn=make_bytes
+calls=1 224
+310 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+310 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+310 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+fn=describe
+105 0
+cfn=<method 'format' of 'str' objects>
+calls=29 0
+105 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+fn=match
+147 0
+cfn=<method 'end' of '_sre.SRE_Match' objects>
+calls=6 0
+147 0
+cfn=<method 'groupdict' of '_sre.SRE_Match' objects>
+calls=6 0
+147 0
+cfn=<method 'groups' of '_sre.SRE_Match' objects>
+calls=6 0
+147 0
+cfn=<method 'search' of '_sre.SRE_Pattern' objects>
+calls=34 0
+147 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+fn=__str__
+186 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/text.py
+fn=smart_split
+335 0
+cfn=<method 'group' of '_sre.SRE_Match' objects>
+calls=18 0
+335 0
+cfn=<method 'finditer' of '_sre.SRE_Pattern' objects>
+calls=6 0
+335 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/text.py
+fn=unescape_string_literal
+381 0
+
+fl=/usr/lib/python3.6/cgi.py
+fn=_parseparam
+301 0
+cfn=<method 'find' of 'str' objects>
+calls=1 0
+301 0
+cfn=<built-in method builtins.len>
+calls=1 0
+301 0
+cfn=<method 'strip' of 'str' objects>
+calls=1 0
+301 0
+
+fl=/usr/lib/python3.6/cgi.py
+fn=parse_header
+313 0
+cfl=/usr/lib/python3.6/cgi.py
+cfn=_parseparam
+calls=2 301
+313 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+fn=reason_phrase
+64 0
+cfn=<method 'get' of 'dict' objects>
+calls=2 0
+64 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+fn=charset
+76 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+cfn=get
+calls=1 155
+76 0
+cfn=<method 'search' of '_sre.SRE_Pattern' objects>
+calls=1 0
+76 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+fn=split_domain_port
+546 0
+cfn=<built-in method builtins.len>
+calls=2 0
+546 0
+cfn=<method 'match' of '_sre.SRE_Pattern' objects>
+calls=2 0
+546 0
+cfn=<method 'lower' of 'str' objects>
+calls=2 0
+546 0
+cfn=<method 'rsplit' of 'str' objects>
+calls=2 0
+546 0
+cfn=<method 'endswith' of 'str' objects>
+calls=2 0
+546 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+fn=<genexpr>
+583 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+fn=validate_host
+568 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+cfn=<genexpr>
+calls=2 583
+568 0
+cfn=<built-in method builtins.any>
+calls=2 0
+568 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/cookie.py
+fn=parse_cookie
+10 0
+cfn=<method 'split' of 'str' objects>
+calls=4 0
+10 0
+cfl=/usr/lib/python3.6/http/cookies.py
+cfn=_unquote
+calls=3 195
+10 0
+cfn=<method 'strip' of 'str' objects>
+calls=6 0
+10 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+fn=__init__
+38 0
+cfl=/usr/lib/python3.6/http/cookies.py
+cfn=__init__
+calls=1 506
+38 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/response.py
+cfn=__setitem__
+calls=1 135
+38 0
+
+fl=/usr/lib/python3.6/http/cookies.py
+fn=_unquote
+195 0
+cfn=<built-in method builtins.len>
+calls=3 0
+195 0
+
+fl=/usr/lib/python3.6/http/cookies.py
+fn=__init__
+506 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+fn=get_host
+88 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+cfn=validate_host
+calls=2 568
+88 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+cfn=split_domain_port
+calls=2 546
+88 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+cfn=_get_raw_host
+calls=2 69
+88 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+fn=_get_raw_host
+69 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+fn=get_full_path
+116 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+cfn=_get_full_path
+calls=3 122
+116 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+fn=_get_full_path
+122 0
+cfn=<method 'get' of 'dict' objects>
+calls=3 0
+122 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/encoding.py
+cfn=escape_uri_path
+calls=3 208
+122 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+fn=build_absolute_uri
+165 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/encoding.py
+cfn=iri_to_uri
+calls=1 122
+165 0
+cfl=/usr/lib/python3.6/urllib/parse.py
+cfn=urlsplit
+calls=1 394
+165 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/functional.py
+cfn=__get__
+calls=1 29
+165 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+cfn=get_full_path
+calls=1 116
+165 0
+cfn=<method 'startswith' of 'str' objects>
+calls=2 0
+165 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+fn=_current_scheme_host
+198 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+cfn=scheme
+calls=1 209
+198 0
+cfn=<method 'format' of 'str' objects>
+calls=1 0
+198 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+cfn=get_host
+calls=1 88
+198 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+fn=scheme
+209 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=_get_scheme
+calls=1 100
+209 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+fn=is_ajax
+225 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+225 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/base.py
+fn=resolve
+21 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/resolvers.py
+cfn=resolve
+calls=1 485
+21 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/base.py
+cfn=get_urlconf
+calls=1 142
+21 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/base.py
+fn=set_script_prefix
+102 0
+cfn=<method 'endswith' of 'str' objects>
+calls=1 0
+102 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/base.py
+fn=set_urlconf
+130 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/urls/base.py
+fn=get_urlconf
+142 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+142 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/encoding.py
+fn=iri_to_uri
+122 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+122 0
+cfl=/usr/lib/python3.6/urllib/parse.py
+cfn=quote
+calls=1 747
+122 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/encoding.py
+fn=escape_uri_path
+208 0
+cfl=/usr/lib/python3.6/urllib/parse.py
+cfn=quote
+calls=3 747
+208 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/encoding.py
+fn=repercent_broken_unicode
+225 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+225 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/db/__init__.py
+fn=reset_queries
+49 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/db/utils.py
+cfn=all
+calls=1 216
+49 0
+cfn=<method 'clear' of 'collections.deque' objects>
+calls=1 0
+49 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/db/__init__.py
+fn=close_old_connections
+59 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/db/utils.py
+cfn=all
+calls=1 216
+59 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/db/backends/base/base.py
+cfn=close_if_unusable_or_obsolete
+calls=1 491
+59 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/db/utils.py
+fn=__getitem__
+195 0
+cfn=<built-in method builtins.getattr>
+calls=2 0
+195 0
+cfn=<built-in method builtins.hasattr>
+calls=2 0
+195 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/db/utils.py
+fn=__iter__
+213 0
+cfn=<built-in method builtins.iter>
+calls=2 0
+213 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/db/utils.py
+fn=<listcomp>
+217 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/db/utils.py
+cfn=__getitem__
+calls=2 195
+217 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/db/utils.py
+fn=all
+216 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/db/utils.py
+cfn=__iter__
+calls=2 213
+216 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/db/utils.py
+cfn=<listcomp>
+calls=2 217
+216 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+fn=_make_id
+7 0
+cfn=<built-in method builtins.id>
+calls=1 0
+7 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+7 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+fn=<listcomp>
+174 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/db/__init__.py
+cfn=close_old_connections
+calls=1 59
+174 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/db/__init__.py
+cfn=reset_queries
+calls=1 49
+174 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+fn=send
+152 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=<listcomp>
+calls=1 174
+152 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+152 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=_live_receivers
+calls=1 223
+152 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+fn=_clear_dead_receivers
+214 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+fn=_live_receivers
+223 0
+cfn=<method 'append' of 'list' objects>
+calls=4 0
+223 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+223 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=_clear_dead_receivers
+calls=1 214
+223 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/dispatch/dispatcher.py
+cfn=_make_id
+calls=1 7
+223 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/functional.py
+fn=__init__
+334 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/functional.py
+cfn=__init__
+calls=1 230
+334 0
+
+fl=<string>
+fn=__new__
+12 0
+cfn=<built-in method __new__ of type object at 0x9cff80>
+calls=36 0
+12 0
+
+fl=<string>
+fn=__new__
+12 0
+cfn=<built-in method __new__ of type object at 0x9cff80>
+calls=36 0
+12 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/functional.py
+fn=<genexpr>
+193 0
+cfn=<built-in method builtins.isinstance>
+calls=50 0
+193 1
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/functional.py
+fn=wrapper
+191 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/html.py
+cfn=escape
+calls=34 36
+191 0
+cfn=<method 'values' of 'dict' objects>
+calls=50 0
+191 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/text.py
+cfn=unescape_string_literal
+calls=16 381
+191 0
+cfn=<built-in method builtins.any>
+calls=50 0
+191 1
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/functional.py
+fn=inner
+211 0
+cfn=<built-in method builtins.dir>
+calls=1 0
+211 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/functional.py
+fn=__init__
+230 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/functional.py
+cfn=__setattr__
+calls=1 237
+230 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/functional.py
+fn=__setattr__
+237 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=getframeinfo
+1430 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=findsource
+calls=36 760
+1430 6
+cfn=<built-in method builtins.min>
+calls=36 0
+1430 0
+cfn=<built-in method builtins.max>
+calls=36 0
+1430 0
+cfl=<string>
+cfn=__new__
+calls=36 12
+1430 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=istraceback
+calls=36 229
+1430 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=isframe
+calls=36 239
+1430 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=getsourcefile
+calls=36 680
+1430 2
+cfn=<built-in method builtins.len>
+calls=36 0
+1430 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=getouterframes
+1469 0
+cfl=<string>
+cfn=__new__
+calls=36 12
+1469 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=getframeinfo
+calls=36 1430
+1469 10
+cfn=<method 'append' of 'list' objects>
+calls=36 0
+1469 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=stack
+1497 0
+cfn=<built-in method sys._getframe>
+calls=1 0
+1497 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=getouterframes
+calls=1 1469
+1497 11
+
+fl=/usr/lib/python3.6/inspect.py
+fn=istraceback
+229 0
+cfn=<built-in method builtins.isinstance>
+calls=144 0
+229 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=isframe
+239 0
+cfn=<built-in method builtins.isinstance>
+calls=144 0
+239 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=iscode
+253 0
+cfn=<built-in method builtins.isinstance>
+calls=108 0
+253 0
+
+fl=/usr/lib/python3.6/urllib/parse.py
+fn=urlsplit
+394 0
+cfl=/usr/lib/python3.6/urllib/parse.py
+cfn=_noop
+calls=1 98
+394 0
+cfl=/usr/lib/python3.6/urllib/parse.py
+cfn=_coerce_args
+calls=1 109
+394 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+394 0
+
+fl=/usr/lib/python3.6/urllib/parse.py
+fn=quote
+747 0
+cfn=<built-in method builtins.isinstance>
+calls=4 0
+747 0
+cfn=<method 'encode' of 'str' objects>
+calls=4 0
+747 0
+cfl=/usr/lib/python3.6/urllib/parse.py
+cfn=quote_from_bytes
+calls=4 808
+747 0
+
+fl=/usr/lib/python3.6/urllib/parse.py
+fn=quote_from_bytes
+808 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=4 0
+808 0
+cfn=<built-in method builtins.isinstance>
+calls=8 0
+808 0
+cfn=<method 'encode' of 'str' objects>
+calls=4 0
+808 0
+cfn=<method 'rstrip' of 'bytes' objects>
+calls=4 0
+808 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=getfile
+643 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=isclass
+calls=72 73
+643 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=ismethod
+calls=72 81
+643 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=isfunction
+calls=72 159
+643 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=iscode
+calls=72 253
+643 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=istraceback
+calls=72 229
+643 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=isframe
+calls=72 239
+643 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=ismodule
+calls=72 64
+643 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=<genexpr>
+687 0
+cfn=<method 'endswith' of 'str' objects>
+calls=144 0
+687 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=<genexpr>
+690 0
+cfn=<method 'endswith' of 'str' objects>
+calls=216 0
+690 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=getsourcefile
+680 1
+cfl=/home/alexzev/project/mysite/lib/python3.6/genericpath.py
+cfn=exists
+calls=72 16
+680 1
+cfl=/usr/lib/python3.6/inspect.py
+cfn=getfile
+calls=72 643
+680 1
+cfn=<built-in method builtins.any>
+calls=144 0
+680 1
+
+fl=/usr/lib/python3.6/inspect.py
+fn=getmodule
+714 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=ismodule
+calls=36 64
+714 0
+cfn=<method 'get' of 'dict' objects>
+calls=36 0
+714 0
+cfn=<built-in method builtins.hasattr>
+calls=36 0
+714 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=findsource
+760 1
+cfl=/usr/lib/python3.6/inspect.py
+cfn=isclass
+calls=36 73
+760 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=ismethod
+calls=36 81
+760 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=isfunction
+calls=36 159
+760 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=iscode
+calls=36 253
+760 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/linecache.py
+cfn=checkcache
+calls=36 53
+760 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=getmodule
+calls=36 714
+760 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/linecache.py
+cfn=getlines
+calls=36 37
+760 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/re.py
+cfn=compile
+calls=36 231
+760 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=istraceback
+calls=36 229
+760 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=isframe
+calls=36 239
+760 0
+cfl=/usr/lib/python3.6/inspect.py
+cfn=getsourcefile
+calls=36 680
+760 3
+cfl=/usr/lib/python3.6/inspect.py
+cfn=ismodule
+calls=36 64
+760 0
+cfn=<method 'match' of '_sre.SRE_Pattern' objects>
+calls=36 0
+760 0
+cfn=<built-in method builtins.hasattr>
+calls=36 0
+760 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/module_loading.py
+fn=import_string
+7 0
+cfn=<built-in method builtins.getattr>
+calls=2 0
+7 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/importlib/__init__.py
+cfn=import_module
+calls=2 108
+7 0
+cfn=<method 'rsplit' of 'str' objects>
+calls=2 0
+7 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=parse_parts
+51 0
+cfn=<built-in method sys.intern>
+calls=11 0
+51 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=splitroot
+calls=12 282
+51 0
+cfn=<method 'reverse' of 'list' objects>
+calls=1 0
+51 0
+cfn=<method 'append' of 'list' objects>
+calls=12 0
+51 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=splitroot
+282 0
+cfn=<built-in method builtins.len>
+calls=2 0
+282 0
+cfn=<method 'lstrip' of 'str' objects>
+calls=1 0
+282 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=wrapped
+385 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=__str__
+calls=1 691
+385 0
+cfn=<built-in method posix.open>
+calls=1 0
+385 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/functional.py
+fn=__get__
+29 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/http/request.py
+cfn=_current_scheme_host
+calls=1 198
+29 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/wsgi.py
+cfn=COOKIES
+calls=1 117
+29 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/utils/deprecation.py
+fn=__call__
+87 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/debug_toolbar/middleware.py
+cfn=process_request
+calls=1 52
+87 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/messages/middleware.py
+cfn=process_request
+calls=1 11
+87 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/debug_toolbar/middleware.py
+cfn=process_response
+calls=1 90
+87 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/core/handlers/exception.py
+cfn=inner
+calls=9 31
+87 41
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/security.py
+cfn=process_request
+calls=1 20
+87 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/sessions/middleware.py
+cfn=process_request
+calls=1 18
+87 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/auth/middleware.py
+cfn=process_request
+calls=1 17
+87 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/clickjacking.py
+cfn=process_response
+calls=1 24
+87 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/security.py
+cfn=process_response
+calls=1 30
+87 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/sessions/middleware.py
+cfn=process_response
+calls=1 22
+87 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/common.py
+cfn=process_response
+calls=1 98
+87 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/csrf.py
+cfn=process_response
+calls=1 314
+87 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/contrib/messages/middleware.py
+cfn=process_response
+calls=1 14
+87 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/csrf.py
+cfn=process_request
+calls=1 199
+87 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/site-packages/django/middleware/common.py
+cfn=process_request
+calls=1 34
+87 0
+cfn=<built-in method builtins.hasattr>
+calls=18 0
+87 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=_parse_args
+631 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=parse_parts
+calls=1 51
+631 0
+cfn=<built-in method posix.fspath>
+calls=2 0
+631 0
+cfn=<method 'append' of 'list' objects>
+calls=2 0
+631 0
+cfn=<built-in method builtins.isinstance>
+calls=5 0
+631 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=_from_parts
+651 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=_parse_args
+calls=1 631
+651 0
+cfn=<built-in method __new__ of type object at 0x9cff80>
+calls=1 0
+651 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=_format_parsed_parts
+674 0
+cfn=<method 'join' of 'str' objects>
+calls=1 0
+674 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=__str__
+691 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=_format_parsed_parts
+calls=1 674
+691 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=ismodule
+64 0
+cfn=<built-in method builtins.isinstance>
+calls=144 0
+64 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=isclass
+73 0
+cfn=<built-in method builtins.isinstance>
+calls=108 0
+73 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=ismethod
+81 0
+cfn=<built-in method builtins.isinstance>
+calls=108 0
+81 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=__new__
+998 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=_from_parts
+calls=1 651
+998 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=_init
+calls=1 1008
+998 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=_init
+1008 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=_opener
+1035 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=wrapped
+calls=1 385
+1035 0
+
+fl=/usr/lib/python3.6/pathlib.py
+fn=open
+1174 0
+cfl=/usr/lib/python3.6/pathlib.py
+cfn=__str__
+calls=1 691
+1174 0
+cfn=<built-in method io.open>
+calls=1 0
+1174 0
+
+fl=/usr/lib/python3.6/urllib/parse.py
+fn=_noop
+98 0
+
+fl=/usr/lib/python3.6/urllib/parse.py
+fn=_coerce_args
+109 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+109 0
+
+fl=/usr/lib/python3.6/inspect.py
+fn=isfunction
+159 0
+cfn=<built-in method builtins.isinstance>
+calls=108 0
+159 0
+
+fl=/home/alexzev/project/mysite/geekshop/geekshop/settings.py
+fn=<lambda>
+67 0
+
+fl=/usr/lib/python3.6/contextlib.py
+fn=__init__
+59 0
+cfn=<built-in method builtins.getattr>
+calls=2 0
+59 0
+
+fl=/usr/lib/python3.6/contextlib.py
+fn=__enter__
+79 0
+cfn=<built-in method builtins.next>
+calls=2 0
+79 0
+
+fl=/usr/lib/python3.6/contextlib.py
+fn=__exit__
+85 0
+cfn=<built-in method builtins.next>
+calls=2 0
+85 0
+
+fl=/usr/lib/python3.6/contextlib.py
+fn=helper
+157 0
+cfl=/usr/lib/python3.6/contextlib.py
+cfn=__init__
+calls=2 59
+157 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/re.py
+fn=search
+179 0
+cfn=<method 'search' of '_sre.SRE_Pattern' objects>
+calls=1 0
+179 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/re.py
+cfn=_compile
+calls=1 286
+179 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/re.py
+fn=split
+204 0
+cfn=<method 'split' of '_sre.SRE_Pattern' objects>
+calls=2 0
+204 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/re.py
+cfn=_compile
+calls=2 286
+204 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/re.py
+fn=compile
+231 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/re.py
+cfn=_compile
+calls=36 286
+231 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/re.py
+fn=_compile
+286 0
+
+fl=/usr/lib/python3.6/threading.py
+fn=name
+1076 0
+
+fl=/usr/lib/python3.6/threading.py
+fn=ident
+1092 0
+
+fl=/usr/lib/python3.6/threading.py
+fn=current_thread
+1230 0
+cfn=<built-in method _thread.get_ident>
+calls=3 0
+1230 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/linecache.py
+fn=getlines
+37 0
+cfn=<built-in method builtins.len>
+calls=36 0
+37 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/linecache.py
+fn=checkcache
+53 0
+cfn=<built-in method posix.stat>
+calls=36 0
+53 0
+cfn=<built-in method builtins.len>
+calls=36 0
+53 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/importlib/__init__.py
+fn=import_module
+108 0
+cfl=<frozen importlib._bootstrap>
+cfn=_gcd_import
+calls=2 982
+108 0
+cfn=<method 'startswith' of 'str' objects>
+calls=2 0
+108 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/enum.py
+fn=value
+599 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/types.py
+fn=__get__
+135 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/enum.py
+cfn=value
+calls=84 599
+135 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/_bootlocale.py
+fn=getpreferredencoding
+23 0
+cfn=<built-in method _locale.nl_langinfo>
+calls=1 0
+23 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/posixpath.py
+fn=_get_sep
+41 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+41 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/posixpath.py
+fn=normcase
+52 0
+cfn=<built-in method posix.fspath>
+calls=1 0
+52 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+52 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/posixpath.py
+fn=splitext
+121 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/genericpath.py
+cfn=_splitext
+calls=1 117
+121 0
+cfn=<built-in method posix.fspath>
+calls=1 0
+121 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+121 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/posixpath.py
+fn=basename
+144 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/posixpath.py
+cfn=_get_sep
+calls=1 41
+144 0
+cfn=<method 'rfind' of 'str' objects>
+calls=1 0
+144 0
+cfn=<built-in method posix.fspath>
+calls=1 0
+144 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/genericpath.py
+fn=exists
+16 0
+cfn=<built-in method posix.stat>
+calls=72 0
+16 1
+
+fl=/home/alexzev/project/mysite/lib/python3.6/genericpath.py
+fn=_splitext
+117 0
+cfn=<method 'rfind' of 'str' objects>
+calls=2 0
+117 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/codecs.py
+fn=__init__
+259 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/codecs.py
+fn=__init__
+308 0
+cfl=/home/alexzev/project/mysite/lib/python3.6/codecs.py
+cfn=__init__
+calls=1 259
+308 0
+
+fl=/home/alexzev/project/mysite/lib/python3.6/codecs.py
+fn=decode
+318 0
+cfn=<built-in method _codecs.utf_8_decode>
+calls=1 0
+318 0
+
+fl=<frozen importlib._bootstrap>
+fn=_module_repr
+269 0
+cfn=<built-in method builtins.getattr>
+calls=13 0
+269 0
+cfl=<frozen importlib._bootstrap>
+cfn=_module_repr_from_spec
+calls=13 581
+269 0
+cfn=<built-in method builtins.hasattr>
+calls=13 0
+269 0
+
+fl=<frozen importlib._bootstrap>
+fn=has_location
+424 0
+
+fl=<frozen importlib._bootstrap>
+fn=_module_repr_from_spec
+581 0
+cfl=<frozen importlib._bootstrap>
+cfn=has_location
+calls=13 424
+581 0
+cfn=<method 'format' of 'str' objects>
+calls=13 0
+581 0
+
+fl=<frozen importlib._bootstrap>
+fn=_sanity_check
+917 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+917 0
+
+fl=<frozen importlib._bootstrap>
+fn=_find_and_load
+966 0
+cfn=<method 'get' of 'dict' objects>
+calls=2 0
+966 0
+cfl=<frozen importlib._bootstrap>
+cfn=cb
+calls=4 176
+966 0
+cfl=<frozen importlib._bootstrap>
+cfn=__init__
+calls=2 143
+966 0
+cfl=<frozen importlib._bootstrap>
+cfn=_lock_unlock_module
+calls=2 194
+966 0
+cfl=<frozen importlib._bootstrap>
+cfn=__exit__
+calls=2 151
+966 0
+cfl=<frozen importlib._bootstrap>
+cfn=__enter__
+calls=2 147
+966 0
+
+fl=<frozen importlib._bootstrap>
+fn=_gcd_import
+982 0
+cfl=<frozen importlib._bootstrap>
+cfn=_sanity_check
+calls=2 917
+982 0
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load
+calls=2 966
+982 0
+
+fl=<frozen importlib._bootstrap>
+fn=__init__
+58 0
+cfn=<built-in method _thread.allocate_lock>
+calls=8 0
+58 0
+
+fl=<frozen importlib._bootstrap>
+fn=acquire
+78 0
+cfn=<built-in method _thread.get_ident>
+calls=4 0
+78 0
+
+fl=<frozen importlib._bootstrap>
+fn=release
+103 0
+cfn=<built-in method _thread.get_ident>
+calls=4 0
+103 0
+
+fl=<frozen importlib._bootstrap>
+fn=__init__
+143 0
+
+fl=<frozen importlib._bootstrap>
+fn=__enter__
+147 0
+cfl=<frozen importlib._bootstrap>
+cfn=acquire
+calls=2 78
+147 0
+cfl=<frozen importlib._bootstrap>
+cfn=_get_module_lock
+calls=2 157
+147 0
+
+fl=<frozen importlib._bootstrap>
+fn=__exit__
+151 0
+cfl=<frozen importlib._bootstrap>
+cfn=release
+calls=2 103
+151 0
+
+fl=<frozen importlib._bootstrap>
+fn=cb
+176 0
+cfn=<method 'get' of 'dict' objects>
+calls=4 0
+176 0
+cfn=<built-in method _imp.acquire_lock>
+calls=4 0
+176 0
+cfn=<built-in method _imp.release_lock>
+calls=4 0
+176 0
+
+fl=<frozen importlib._bootstrap>
+fn=_get_module_lock
+157 0
+cfn=<built-in method _imp.acquire_lock>
+calls=4 0
+157 0
+cfn=<built-in method _imp.release_lock>
+calls=4 0
+157 0
+cfl=<frozen importlib._bootstrap>
+cfn=__init__
+calls=4 58
+157 0
+
+fl=<frozen importlib._bootstrap>
+fn=_lock_unlock_module
+194 0
+cfl=<frozen importlib._bootstrap>
+cfn=release
+calls=2 103
+194 0
+cfl=<frozen importlib._bootstrap>
+cfn=acquire
+calls=2 78
+194 0
+cfl=<frozen importlib._bootstrap>
+cfn=_get_module_lock
+calls=2 157
+194 0
+

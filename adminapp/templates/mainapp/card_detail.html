@@ -1,0 +1,54 @@
+{% extends 'adminapp/base.html' %}
+{% load static %}
+
+
+{% block container %}
+<div class="containe mt-2 ml-auto mr-auto">
+    <div class="row">
+        <img class="col-3 ava_img" src="/media/{{ object.img|default:'products_images/default.jpg'}}" alt="{{ object.name }}">
+        <div class="col-8 mt-2 ml-5">
+            Товар <strong>{{ object.category.name|title }} / {{ object.name|title }}</strong>
+            <div class="row mt-3">
+                <div class="col">
+                    <b>цена</b>
+                    <p>{{ object.price }} &euro; </p>
+                    <b>количество</b>
+                    <p>{{ object.quantity }}</p>
+                    <b>В каталоге</b>
+                    <p>{% if object.is_active %}Да{% else %}Нет{% endif %}</p>
+                    <p>
+                        <a href="{% url 'myadmin:card_update' object.pk %}"
+                            class="btn btn-success btn-block">
+                            редактировать
+                        </a>
+                    </p>
+                    <p>
+                        <a href="{% url 'myadmin:card_delete' object.pk %}"
+                            class="btn btn-danger btn-block">
+                            удалить
+                        </a>
+                    </p>
+                    <p>
+                        <a href="{% url 'myadmin:cards' object.category.pk %}"
+                            class="btn btn-info btn-block">
+                            назад
+                        </a>
+                    </p>
+                </div>
+                <div class="col">
+                    <b>Краткая информация</b>
+                    <p>
+                        {{ object.title|title }}  
+                    </p>
+                    <br>
+                    <br>
+                    <b>Подробная информация</b>
+                    <p>
+                        {{ object.description }} 
+                    </p>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

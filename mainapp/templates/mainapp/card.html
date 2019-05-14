@@ -1,0 +1,33 @@
+{% extends 'mainapp/base.html' %}
+{% load static %}
+{% load img_tags %}
+
+{% block JS %}
+    {{ block.super }}
+    <script src="{% static 'js/basket_add.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+    <div class="contentHeader newProductsHeader">
+        Название товара: "{{ object.name }}" 
+    </div>
+    <div class="container hero">
+        <div class="card w-100 details-products" >
+            <img src="{{ object.img|media_folder_cards }}" alt="{{ object.title }}">                      
+            <div class="card-body">
+                <h4 class="card-title">{{object.name  }}</h4>
+                <p class="card-text">{{object.title}}</p>
+                {% if user.is_authenticated %}
+                    <a href="{#% url 'basket:add' object.pk %#}" class="bt-01" name="{{ object.pk }}">
+                        &euro; {{object.price|floatformat:0}}&nbsp;&nbsp;&nbsp;
+                    </a>
+                {% else %}
+                    <a href="{% url 'auth:login' %}" class="bt-01 ">
+                        купить 
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </a>
+                {% endif %} 
+            </div>
+        </div>
+    </div>
+{% endblock %}
