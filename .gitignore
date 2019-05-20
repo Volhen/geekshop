@@ -1,0 +1,21 @@
+# Packaging
+*.pyc
+*∼
+*.egg-info
+*.mo
+*.egg
+*.sqlite3
+*db.py
+*.log
+/dist/
+/build/
+
+# Temporary/OS files
+*.swp
+*.swo
+*.*~
+.~lock.*
+*.DS_Store
+.python-version
+*.__pycache__/
+*.tmp/my-profile/

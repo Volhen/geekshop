@@ -49,6 +49,14 @@ class Order(models.Model):
     def delete(self):
         self.is_active = False
         self.save()
+    
+    def get_summary(self):
+        print('low cache get_summary')
+        items = self.orderitems.select_related()
+        return {
+            'total_cost': sum(list(map(lambda x: x.quantity * x.card.price, items))),
+            'total_quantity': sum(list(map(lambda x: x.quantity, items)))
+        }
 
 
 class OrderItem(models.Model):

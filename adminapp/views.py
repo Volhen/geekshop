@@ -1,3 +1,4 @@
+from django.db.models import F
 from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.decorators import user_passes_test
 from django.shortcuts import HttpResponseRedirect
@@ -8,21 +9,14 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.views.generic.detail import DetailView
 from django.utils.decorators import method_decorator
 
+from django.dispatch import receiver
+from django.db.models.signals import pre_save
+from django.db import connection
+
 from adminapp.forms import ShopUserCreationAdminForm, ShopUserUpdateAdminForm, ProductCategoryEditForm, ShopUserRecoverAdminForm, CardEditForm
 from authapp.models import GeekUser
 from mainapp.models import CardCategory, Card
 
-
-# @user_passes_test(lambda x: x.is_superuser)
-# def index(request):
-#     users_list = GeekUser.objects.all().order_by('-is_active', '-is_superuser',
-#                                                  '-is_staff', 'username')
-#     context = {
-#         'title': 'админка/пользователи',
-#         'objects': users_list
-#     }
-
-#     return render(request, 'adminapp/index.html', context)
 
 class UsersListView(ListView):
     model = GeekUser
@@ -115,21 +109,6 @@ def shopuser_recover(request, pk):
     return render(request, 'adminapp/shopuser_update.html', context)
 
 
-# def productcategory_create(request):
-#     if request.method == 'POST':
-#         form = ProductCategoryEditForm(request.POST, request.FILES)
-#         if form.is_valid():
-#             form.save()
-#             return HttpResponseRedirect(reverse('myadmin:categories'))
-#     else:
-#         form = ProductCategoryEditForm()
-#     context = {
-#         'title': 'категории/создание',
-#         'form': form
-#     }
-#     return render(request, 'adminapp/productcategory_update.html', context)
-
-
 class ProductCategoryCreateView(CreateView):
     model = CardCategory
     success_url = reverse_lazy('myadmin:categories')
@@ -162,19 +141,14 @@ class ProductCategoryUpdateView(UpdateView):
         context = super().get_context_data(**kwargs)
         context['title'] = 'категории/редактирование'
         return context
+    
+    def form_valid(self, form):
+        if 'discount' in form.cleaned_data:
+            discount = form.cleaned_data['discount']
+            if discount:
+                self.object.card_set.update(price=F('price') * (1 - discount / 100))
+        return super().form_valid(form)
 
-
-# def productcategory_delete(request, pk):
-#     object = get_object_or_404(CardCategory, pk=pk)
-#     if request.method == 'POST':
-#         object.is_active = False
-#         object.save()
-#         return HttpResponseRedirect(reverse('myadmin:categories'))
-#     context = {
-#         'title': 'категории/удаление',
-#         'object': object
-#     }
-#     return render(request, 'adminapp/productcategory_delete.html', context)
 
 
 class ProductCategoryDeleteView(DeleteView):
@@ -203,13 +177,6 @@ def card_create(request,pk):
         'category': category
     }
     return render(request, 'adminapp/card_update.html', context)
-
-# def card_read(request, pk):
-#     context = {
-#     'title': 'товары/подробнее',
-#     'object': get_object_or_404(Card, pk=pk)
-#     }
-#     return render(request, 'adminapp/card_read.html', context)
 
 class ProductDetailView(DetailView):
     model = Card
@@ -247,3 +214,18 @@ def card_delete(request, pk):
     }
     return render(request, 'adminapp/card_delete.html', context)
 
+
+def db_profile_by_type(prefix, type, queries):
+    update_queries = list(filter(lambda x: type in x['sql'], queries))
+    print(f'db_profile {type} for {prefix}:')
+    [print(query['sql']) for query in update_queries]
+
+@receiver(pre_save, sender=CardCategory)
+def card_is_active_update_cardtcategory_save(sender, instance, **kwargs):
+    if instance.pk:
+        if instance.is_active:
+            instance.card_set.update(is_active=True)
+        else:
+            instance.card_set.update(is_active=False)
+
+        db_profile_by_type(sender, 'UPDATE', connection.queries)

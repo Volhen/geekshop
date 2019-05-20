@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'mh93qdg#9056-(5^g%^-og%162k*o1=t%c#w#u-i^@61s9z3w6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -51,6 +51,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    # 'django.middleware.cache.UpdateCacheMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -59,30 +60,41 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'social_django.middleware.SocialAuthExceptionMiddleware',
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
+    # 'debug_toolbar.middleware.DebugToolbarMiddleware',
+    # 'django.middleware.cache.FetchFromCacheMiddleware',
 ]
 
-if  DEBUG:
-    DEBUG_TOOLBAR_CONFIG = {
-        'SHOW_TOOLBAR_CALLBACK': lambda x: True,
-    }
+# if DEBUG:
+#     INSTALLED_APPS.extend([
+#         'debug_toolbar',
+#         'template_profiler_panel',
+#         'django_extensions',
+#     ])
+#     MIDDLEWARE.append(
+#         'debug_toolbar.middleware.DebugToolbarMiddleware',
+#     )
 
-    DEBUG_TOOLBAR_PANELS = [
-        'debug_toolbar.panels.versions.VersionsPanel',
-        'debug_toolbar.panels.timer.TimerPanel',
-        'debug_toolbar.panels.settings.SettingsPanel',
-        'debug_toolbar.panels.headers.HeadersPanel',
-        'debug_toolbar.panels.request.RequestPanel',
-        'debug_toolbar.panels.sql.SQLPanel',
-        'debug_toolbar.panels.templates.TemplatesPanel',
-        'debug_toolbar.panels.staticfiles.StaticFilesPanel',
-        'debug_toolbar.panels.cache.CachePanel',
-        'debug_toolbar.panels.signals.SignalsPanel',
-        'debug_toolbar.panels.logging.LoggingPanel',
-        'debug_toolbar.panels.redirects.RedirectsPanel',
-        'debug_toolbar.panels.profiling.ProfilingPanel',
-        'template_profiler_panel.panels.template.TemplateProfilerPanel',
-    ]
+# if  DEBUG:
+#     DEBUG_TOOLBAR_CONFIG = {
+#         'SHOW_TOOLBAR_CALLBACK': lambda x: True,
+#     }
+
+#     DEBUG_TOOLBAR_PANELS = [
+#         'debug_toolbar.panels.versions.VersionsPanel',
+#         'debug_toolbar.panels.timer.TimerPanel',
+#         'debug_toolbar.panels.settings.SettingsPanel',
+#         'debug_toolbar.panels.headers.HeadersPanel',
+#         'debug_toolbar.panels.request.RequestPanel',
+#         'debug_toolbar.panels.sql.SQLPanel',
+#         'debug_toolbar.panels.templates.TemplatesPanel',
+#         'debug_toolbar.panels.staticfiles.StaticFilesPanel',
+#         'debug_toolbar.panels.cache.CachePanel',
+#         'debug_toolbar.panels.signals.SignalsPanel',
+#         'debug_toolbar.panels.logging.LoggingPanel',
+#         'debug_toolbar.panels.redirects.RedirectsPanel',
+#         'debug_toolbar.panels.profiling.ProfilingPanel',
+#         'template_profiler_panel.panels.template.TemplateProfilerPanel',
+#     ]
 
 
 
@@ -114,17 +126,17 @@ WSGI_APPLICATION = 'geekshop.wsgi.application'
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    # }
     'default': {
-        'NAME': 'geekshop',
-        'ENGINE': 'django.db.backends.postgresql',
-        'USER': 'django',
-        'PASSWORD': 'geekbrains',
-        'HOST': 'localhost'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
+    # 'default': {
+    #     'NAME': 'geekshop',
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'USER': 'django',
+    #     'PASSWORD': 'geekbrains',
+    #     'HOST': 'localhost'
+    # }
 }
 
 
@@ -176,7 +188,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 AUTH_USER_MODEL = 'authapp.GeekUser'
 
 
-DOMAIN_NAME = 'http://localhost:8000'
+# DOMAIN_NAME = 'http://localhost:8000'
+DOMAIN_NAME = 'http://localhost'
 
 EMAIL_HOST = 'localhost'
 EMAIL_PORT = '25'
@@ -229,3 +242,16 @@ SOCIAL_AUTH_PIPELINE = (
     'social_core.pipeline.social_auth.load_extra_data',
     'social_core.pipeline.user.user_details',
 )
+
+CACHE_MIDDLEWARE_ALIAS = 'default'
+CACHE_MIDDLEWARE_SECONDS = 120
+CACHE_MIDDLEWARE_KEY_PREFIX = 'geekshop'
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': '127.0.0.1:11211',
+    }
+}
+
+LOW_CACHE = True

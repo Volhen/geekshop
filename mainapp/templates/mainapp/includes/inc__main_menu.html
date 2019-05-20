@@ -15,32 +15,14 @@
                                 <i class="fa fa-suitcase"></i>Каталог
                             </a>
                             <ul class="submenu">
-                                <li >
-                                    <a href="{% url 'main:category' 0 1 %}"
-                                    class="{% if request.resolver_match.kwargs.pk == '0' %}active{% endif %}">
-                                        Все товары в наличии
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="{% url 'main:category' 1 2 %}"
-                                    class="{% if request.resolver_match.kwargs.pk == '1' %}active{% endif %}">
-                                        Одежда
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="{% url 'main:category' 2 3 %}"
-                                    class="{% if request.resolver_match.kwargs.pk == '2' %}active{% endif %}">
-                                        Доски
-                                    </a>
-                                </li>
-                                {% comment %} {% for element in links_menu %}
+                                {% for element in links_menu %}
                                     <li>
-                                        <a href="{% url 'main:category' element.pk %}"
+                                        <a href="{% url 'main:category' element.pk 1%}"
                                         class="{% if request.resolver_match.kwargs.pk|add:0 == element.pk %}active{% endif %}">
                                             {{ element.name }}
                                         </a>
                                     </li>
-                                {% endfor %} {% endcomment %}
+                                {% endfor %}
                             </ul>
                         </li>
                         <li>
